@@ -58,3 +58,11 @@ No backend or form service is configured. Submitting the form validates the fiel
 
 - Semantic landmarks, keyboard-accessible navigation and dialog, visible focus states, labels, accessible form status, reduced-motion support, responsive layouts, and SEO/Open Graph metadata are included.
 - The site uses no frontend framework or third-party JavaScript dependencies. Google Fonts are progressive enhancement with system-font fallbacks.
+
+
+## Add your profile photo
+
+1. Choose a clear, professional head-and-shoulders photo. A square or portrait JPG works best.
+2. Copy it into the `assets` folder and name it exactly `profile.jpg`.
+3. Commit and push the image along with the updated site files. The hero portrait uses `assets/profile.jpg`; if it is missing, the page displays the `SV` initials fallback.
+4. GitHub profile links have been removed from the hero, contact section, and footer. The site still deploys through GitHub Pages; this only hides GitHub as a public social link.
